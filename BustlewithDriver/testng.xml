@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Bustle.Test.MembersPageTest"/>
+      <class name="Bustle.Test.TotalHoursofWork"/>
+      <class name="Bustle.Test.CreateOrganisationTest"/>
+      <class name="Bustle.Test.SignUpTest"/>
+      <class name="Bustle.Test.ActivityTest"/>
+      <class name="Bustle.Test.TaskPageTest"/>
+      <class name="Bustle.Test.ProjectsTest"/>
+      <class name="Bustle.Test.ForgotPasswordPageTest"/>
+      <class name="Bustle.Test.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

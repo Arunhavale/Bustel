@@ -1,0 +1,16 @@
+package BustleGroup.BustleNew;
+
+import org.testng.annotations.Test;
+
+public class ActivityTest extends ActivityPage {
+	
+	@Test
+	public void activityPagetest1(){
+		LoginPage login = new LoginPage();
+		login.loginToApplication();
+		selectProject("Kazi");
+		selectName("Ramesh");
+		selectDateFromCalendar("7","July","2019");
+	}
+
+}

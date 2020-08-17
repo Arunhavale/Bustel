@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="11" ignored="0" total="30" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="300572" started-at="2020-08-14T16:42:42 IST" finished-at="2020-08-14T16:47:42 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="300572" started-at="2020-08-14T16:42:42 IST" finished-at="2020-08-14T16:47:42 IST">
+      <class name="Bustle.Test.SignUpTest">
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="driveninitialisation" is-config="true" duration-ms="7824" started-at="2020-08-14T16:44:07 IST" finished-at="2020-08-14T16:44:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="duplicateSignUp()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="duplicateSignUp" duration-ms="1285" started-at="2020-08-14T16:44:14 IST" finished-at="2020-08-14T16:44:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateSignUp -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="driveninitialisation" is-config="true" duration-ms="8588" started-at="2020-08-14T16:44:16 IST" finished-at="2020-08-14T16:44:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="invalidSignUp1()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="invalidSignUp1" duration-ms="328" started-at="2020-08-14T16:44:24 IST" finished-at="2020-08-14T16:44:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignUp1 -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="driveninitialisation" is-config="true" duration-ms="9481" started-at="2020-08-14T16:44:25 IST" finished-at="2020-08-14T16:44:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="invalidSignUp2()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="invalidSignUp2" duration-ms="327" started-at="2020-08-14T16:44:34 IST" finished-at="2020-08-14T16:44:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignUp2 -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="driveninitialisation" is-config="true" duration-ms="8246" started-at="2020-08-14T16:44:34 IST" finished-at="2020-08-14T16:44:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="invalidSignUp3()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="invalidSignUp3" duration-ms="444" started-at="2020-08-14T16:44:43 IST" finished-at="2020-08-14T16:44:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignUp3 -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="driveninitialisation" is-config="true" duration-ms="8161" started-at="2020-08-14T16:44:43 IST" finished-at="2020-08-14T16:44:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="verifySignUpPage()[pri:0, instance:Bustle.Test.SignUpTest@4d41cee]" name="verifySignUpPage" duration-ms="66" started-at="2020-08-14T16:44:51 IST" finished-at="2020-08-14T16:44:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPage -->
+      </class> <!-- Bustle.Test.SignUpTest -->
+      <class name="Bustle.Test.ProjectsTest">
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ProjectsTest@33f88ab]" name="driveninitialisation" is-config="true" duration-ms="8221" started-at="2020-08-14T16:45:48 IST" finished-at="2020-08-14T16:45:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="ProjectsTest1()[pri:0, instance:Bustle.Test.ProjectsTest@33f88ab]" name="ProjectsTest1" duration-ms="1293" started-at="2020-08-14T16:45:56 IST" finished-at="2020-08-14T16:45:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProjectsTest1 -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ProjectsTest@33f88ab]" name="driveninitialisation" is-config="true" duration-ms="8624" started-at="2020-08-14T16:45:57 IST" finished-at="2020-08-14T16:46:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="addNewMemberToProject()[pri:0, instance:Bustle.Test.ProjectsTest@33f88ab]" name="addNewMemberToProject" duration-ms="720" started-at="2020-08-14T16:46:06 IST" finished-at="2020-08-14T16:46:06 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d66925d0be5367eb91bf15b928bc78c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d66925d0be5367eb91bf15b928bc78c8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+at Bustle.pages.ProjectPage.selectProject(ProjectPage.java:78)
+at Bustle.pages.ProjectPage.addMemberToTheProject(ProjectPage.java:113)
+at Bustle.Test.ProjectsTest.addNewMemberToProject(ProjectsTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewMemberToProject -->
+      </class> <!-- Bustle.Test.ProjectsTest -->
+      <class name="Bustle.Test.ActivityTest">
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ActivityTest@3712b94]" name="driveninitialisation" is-config="true" duration-ms="8335" started-at="2020-08-14T16:44:51 IST" finished-at="2020-08-14T16:45:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="activitytest1()[pri:0, instance:Bustle.Test.ActivityTest@3712b94]" name="activitytest1" duration-ms="1585" started-at="2020-08-14T16:45:00 IST" finished-at="2020-08-14T16:45:01 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class=" css-1wa3eu0-placeholder">...</div> is not clickable at point (575, 113). Other element would receive the click: <div class="jss55">...</div>
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 262a4615fcb63ca7209312bccc963b93]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class=" css-1wa3eu0-placeholder">...</div> is not clickable at point (575, 113). Other element would receive the click: <div class="jss55">...</div>
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 262a4615fcb63ca7209312bccc963b93
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at Bustle.pages.ActivityPage.selectProject(ActivityPage.java:71)
+at Bustle.Test.ActivityTest.activitytest1(ActivityTest.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activitytest1 -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ActivityTest@3712b94]" name="driveninitialisation" is-config="true" duration-ms="8132" started-at="2020-08-14T16:45:01 IST" finished-at="2020-08-14T16:45:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="verifyActivityPage()[pri:0, instance:Bustle.Test.ActivityTest@3712b94]" name="verifyActivityPage" duration-ms="378" started-at="2020-08-14T16:45:09 IST" finished-at="2020-08-14T16:45:10 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[http://bustle-spot.com/activity: page is not displayed. expected [http://bustle-spot.com/activity] but found [http://bustle-spot.com/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: http://bustle-spot.com/activity: page is not displayed. expected [http://bustle-spot.com/activity] but found [http://bustle-spot.com/login]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at Bustle.Base.BaseClass.verifyPage(BaseClass.java:49)
+at Bustle.Test.ActivityTest.verifyActivityPage(ActivityTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActivityPage -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ActivityTest@3712b94]" name="driveninitialisation" is-config="true" duration-ms="8177" started-at="2020-08-14T16:45:10 IST" finished-at="2020-08-14T16:45:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="viewDetailsOfUser()[pri:0, instance:Bustle.Test.ActivityTest@3712b94]" name="viewDetailsOfUser" duration-ms="717" started-at="2020-08-14T16:45:18 IST" finished-at="2020-08-14T16:45:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewDetailsOfUser -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ActivityTest@3712b94]" name="driveninitialisation" is-config="true" duration-ms="7744" started-at="2020-08-14T16:45:19 IST" finished-at="2020-08-14T16:45:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="viewScreenshotsOfUser()[pri:0, instance:Bustle.Test.ActivityTest@3712b94]" name="viewScreenshotsOfUser" duration-ms="1556" started-at="2020-08-14T16:45:26 IST" finished-at="2020-08-14T16:45:28 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="# " class="jss161">...</a> is not clickable at point (1434, 247). Other element would receive the click: <div class="ac-btn-sec">...</div>
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc65fc6a2c0afad8f9c0ff67b9e74b88]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="# " class="jss161">...</a> is not clickable at point (1434, 247). Other element would receive the click: <div class="ac-btn-sec">...</div>
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc65fc6a2c0afad8f9c0ff67b9e74b88
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at Bustle.pages.ActivityPage.ViewScreeshot(ActivityPage.java:105)
+at Bustle.Test.ActivityTest.viewScreenshotsOfUser(ActivityTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewScreenshotsOfUser -->
+      </class> <!-- Bustle.Test.ActivityTest -->
+      <class name="Bustle.Test.ForgotPasswordPageTest">
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="driveninitialisation" is-config="true" duration-ms="7153" started-at="2020-08-14T16:46:06 IST" finished-at="2020-08-14T16:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="emptyMailId()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="emptyMailId" duration-ms="189" started-at="2020-08-14T16:46:14 IST" finished-at="2020-08-14T16:46:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyMailId -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="driveninitialisation" is-config="true" duration-ms="6835" started-at="2020-08-14T16:46:14 IST" finished-at="2020-08-14T16:46:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="invalidMailId()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="invalidMailId" duration-ms="805" started-at="2020-08-14T16:46:21 IST" finished-at="2020-08-14T16:46:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidMailId -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="driveninitialisation" is-config="true" duration-ms="6866" started-at="2020-08-14T16:46:21 IST" finished-at="2020-08-14T16:46:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="returnToLoginPage()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="returnToLoginPage" duration-ms="109" started-at="2020-08-14T16:46:28 IST" finished-at="2020-08-14T16:46:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToLoginPage -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="driveninitialisation" is-config="true" duration-ms="8019" started-at="2020-08-14T16:46:28 IST" finished-at="2020-08-14T16:46:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="validMailId()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="validMailId" duration-ms="987" started-at="2020-08-14T16:46:36 IST" finished-at="2020-08-14T16:46:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validMailId -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="driveninitialisation" is-config="true" duration-ms="6805" started-at="2020-08-14T16:46:37 IST" finished-at="2020-08-14T16:46:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="verifyForgotPasswordPage()[pri:0, instance:Bustle.Test.ForgotPasswordPageTest@27a8c74e]" name="verifyForgotPasswordPage" duration-ms="56" started-at="2020-08-14T16:46:44 IST" finished-at="2020-08-14T16:46:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordPage -->
+      </class> <!-- Bustle.Test.ForgotPasswordPageTest -->
+      <class name="Bustle.Test.CreateOrganisationTest">
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.CreateOrganisationTest@17579e0f]" name="driveninitialisation" is-config="true" duration-ms="7741" started-at="2020-08-14T16:43:26 IST" finished-at="2020-08-14T16:43:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="CreateOrganisation()[pri:0, instance:Bustle.Test.CreateOrganisationTest@17579e0f]" name="CreateOrganisation" duration-ms="32550" started-at="2020-08-14T16:43:34 IST" finished-at="2020-08-14T16:44:07 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //button[.='Add Organisation'] (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[.='Add Organisation'] (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Bustle.Base.BaseClass.waitForElement(BaseClass.java:38)
+at Bustle.pages.OrganisationPage.clickonAddOrganisation(OrganisationPage.java:23)
+at Bustle.pages.OrganisationPage.addOrganisation(OrganisationPage.java:59)
+at Bustle.Test.CreateOrganisationTest.CreateOrganisation(CreateOrganisationTest.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Add Organisation']"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61160}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5f3363fe54588833539ce57bf802825c
+*** Element info: {Using=xpath, value=//button[.='Add Organisation']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganisation -->
+      </class> <!-- Bustle.Test.CreateOrganisationTest -->
+      <class name="Bustle.Test.TotalHoursofWork">
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.TotalHoursofWork@4b1c1ea0]" name="driveninitialisation" is-config="true" duration-ms="7436" started-at="2020-08-14T16:43:18 IST" finished-at="2020-08-14T16:43:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="TotalHours()[pri:0, instance:Bustle.Test.TotalHoursofWork@4b1c1ea0]" name="TotalHours" duration-ms="805" started-at="2020-08-14T16:43:25 IST" finished-at="2020-08-14T16:43:26 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [00:00] but found [02:51]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [00:00] but found [02:51]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Bustle.pages.ActivityPage.verifyTotalHoursWorkDone(ActivityPage.java:124)
+at Bustle.Test.TotalHoursofWork.TotalHours(TotalHoursofWork.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalHours -->
+      </class> <!-- Bustle.Test.TotalHoursofWork -->
+      <class name="Bustle.Test.TaskPageTest">
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.TaskPageTest@2833cc44]" name="driveninitialisation" is-config="true" duration-ms="8552" started-at="2020-08-14T16:45:28 IST" finished-at="2020-08-14T16:45:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="AddTask1()[pri:0, instance:Bustle.Test.TaskPageTest@2833cc44]" name="AddTask1" duration-ms="1581" started-at="2020-08-14T16:45:37 IST" finished-at="2020-08-14T16:45:38 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e3851ddcd5057ffa3a1b6c46553acc36]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e3851ddcd5057ffa3a1b6c46553acc36
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+at Bustle.pages.TasksPage.selectProject(TasksPage.java:52)
+at Bustle.Test.TaskPageTest.AddTask1(TaskPageTest.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTask1 -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.TaskPageTest@2833cc44]" name="driveninitialisation" is-config="true" duration-ms="8349" started-at="2020-08-14T16:45:38 IST" finished-at="2020-08-14T16:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="AddTask2()[pri:0, instance:Bustle.Test.TaskPageTest@2833cc44]" name="AddTask2" duration-ms="1092" started-at="2020-08-14T16:45:46 IST" finished-at="2020-08-14T16:45:48 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b59832198a2982cee40cbcd0c9abe6d0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b59832198a2982cee40cbcd0c9abe6d0
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+at Bustle.pages.TasksPage.selectProject(TasksPage.java:52)
+at Bustle.pages.TasksPage.addTask(TasksPage.java:69)
+at Bustle.Test.TaskPageTest.AddTask2(TaskPageTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTask2 -->
+      </class> <!-- Bustle.Test.TaskPageTest -->
+      <class name="Bustle.Test.LoginTest">
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="driveninitialisation" is-config="true" duration-ms="8011" started-at="2020-08-14T16:46:44 IST" finished-at="2020-08-14T16:46:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="continueWithGoogle()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="continueWithGoogle" duration-ms="46" started-at="2020-08-14T16:46:52 IST" finished-at="2020-08-14T16:46:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueWithGoogle -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="driveninitialisation" is-config="true" duration-ms="7527" started-at="2020-08-14T16:46:52 IST" finished-at="2020-08-14T16:47:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="invalidLoginTest1()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="invalidLoginTest1" duration-ms="12940" started-at="2020-08-14T16:47:00 IST" finished-at="2020-08-14T16:47:13 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 11fec249ace8ebd8c528317a322c0b7e
+*** Element info: {Using=xpath, value=//div[@class='message-sec']/p}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 11fec249ace8ebd8c528317a322c0b7e
+*** Element info: {Using=xpath, value=//div[@class='message-sec']/p}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at Bustle.Base.BaseClass.waitForElement(BaseClass.java:38)
+at Bustle.pages.LoginPage.verifyErrorMsg(LoginPage.java:53)
+at Bustle.Test.LoginTest.invalidLoginTest1(LoginTest.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest1 -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="driveninitialisation" is-config="true" duration-ms="6880" started-at="2020-08-14T16:47:13 IST" finished-at="2020-08-14T16:47:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="invalidLoginTest2()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="invalidLoginTest2" duration-ms="875" started-at="2020-08-14T16:47:20 IST" finished-at="2020-08-14T16:47:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest2 -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="driveninitialisation" is-config="true" duration-ms="6596" started-at="2020-08-14T16:47:21 IST" finished-at="2020-08-14T16:47:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="invalidLoginTest3()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="invalidLoginTest3" duration-ms="174" started-at="2020-08-14T16:47:27 IST" finished-at="2020-08-14T16:47:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest3 -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="driveninitialisation" is-config="true" duration-ms="6688" started-at="2020-08-14T16:47:27 IST" finished-at="2020-08-14T16:47:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="validLoginTest" duration-ms="1652" started-at="2020-08-14T16:47:34 IST" finished-at="2020-08-14T16:47:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="driveninitialisation" is-config="true" duration-ms="6559" started-at="2020-08-14T16:47:36 IST" finished-at="2020-08-14T16:47:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:Bustle.Test.LoginTest@2d8f65a4]" name="verifyLoginPage" duration-ms="5" started-at="2020-08-14T16:47:42 IST" finished-at="2020-08-14T16:47:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+      </class> <!-- Bustle.Test.LoginTest -->
+      <class name="Bustle.Test.MembersPageTest">
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.MembersPageTest@6acdbdf5]" name="driveninitialisation" is-config="true" duration-ms="7572" started-at="2020-08-14T16:42:42 IST" finished-at="2020-08-14T16:42:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="AddMembers()[pri:0, instance:Bustle.Test.MembersPageTest@6acdbdf5]" name="AddMembers" duration-ms="1075" started-at="2020-08-14T16:42:49 IST" finished-at="2020-08-14T16:42:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMembers -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.MembersPageTest@6acdbdf5]" name="driveninitialisation" is-config="true" duration-ms="6885" started-at="2020-08-14T16:42:50 IST" finished-at="2020-08-14T16:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="assignProject()[pri:0, instance:Bustle.Test.MembersPageTest@6acdbdf5]" name="assignProject" duration-ms="826" started-at="2020-08-14T16:42:57 IST" finished-at="2020-08-14T16:42:58 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 832257c3a12a056a0ef038829019d026]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 832257c3a12a056a0ef038829019d026
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at Bustle.pages.MembersPage.clickOnAssignProject(MembersPage.java:65)
+at Bustle.pages.MembersPage.assignProject(MembersPage.java:122)
+at Bustle.Test.MembersPageTest.assignProject(MembersPageTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignProject -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.MembersPageTest@6acdbdf5]" name="driveninitialisation" is-config="true" duration-ms="8318" started-at="2020-08-14T16:42:58 IST" finished-at="2020-08-14T16:43:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="FAIL" signature="selectMember()[pri:0, instance:Bustle.Test.MembersPageTest@6acdbdf5]" name="selectMember" duration-ms="1101" started-at="2020-08-14T16:43:06 IST" finished-at="2020-08-14T16:43:07 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eeeeb5568d315506758e3d4c59354b7b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NCQP8K2', ip: '192.168.4.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SOFTSU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eeeeb5568d315506758e3d4c59354b7b
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at Bustle.pages.MembersPage.clickonMember(MembersPage.java:92)
+at Bustle.Test.MembersPageTest.selectMember(MembersPageTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMember -->
+        <test-method status="PASS" signature="driveninitialisation()[pri:0, instance:Bustle.Test.MembersPageTest@6acdbdf5]" name="driveninitialisation" is-config="true" duration-ms="9948" started-at="2020-08-14T16:43:07 IST" finished-at="2020-08-14T16:43:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driveninitialisation -->
+        <test-method status="PASS" signature="verifyMembersPage()[pri:0, instance:Bustle.Test.MembersPageTest@6acdbdf5]" name="verifyMembersPage" duration-ms="667" started-at="2020-08-14T16:43:17 IST" finished-at="2020-08-14T16:43:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMembersPage -->
+      </class> <!-- Bustle.Test.MembersPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
